@@ -1,15 +1,14 @@
 {
-  "name": "directus-starter",
-  "version": "1.0.0",
-  "description": "Directus template for railway app",
-  "scripts": {
-    "start": "npx directus start"
-  },
-  "engines": {
-    "node": ">=12.20.0"
-  },
-  "dependencies": {
-    "directus": "^10.3.0",
-    "pg": "^8.11.0"
-  }
+    "name": "directus-starter",
+    "version": "1.0.0",
+    "description": "Directus template for railway app",
+    "scripts": {
+        "start": "npx directus start"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "dependencies": {
+        "directus": "^10.4.0"
+    }
 }

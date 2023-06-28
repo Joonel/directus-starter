@@ -1,4 +1,3 @@
-
 module.exports = function (env) {
     return {
         // Railway inputs
@@ -13,13 +12,11 @@ module.exports = function (env) {
         // Reference: https://docs.railway.app/develop/variables#railway-provided-variables
         PUBLIC_URL: `http://0.0.0.0:${env.PORT}`,
 
-        // Database variables from Railway PostgreSQL Plugin
-        // Reference: https://docs.railway.app/plugins/postgresql
-        DB_CLIENT: 'pg',
-        DB_HOST: env.PGHOST,
-        DB_PORT: env.PGPORT,
-        DB_DATABASE: env.PGDATABASE,
-        DB_USER: env.PGUSER,
-        DB_PASSWORD: env.PGPASSWORD,
+        DB_CLIENT: env.DB_CLIENT,
+        DB_HOST: env.DB_HOST,
+        DB_PORT: env.DB_PORT,
+        DB_DATABASE: env.DB_NAME,
+        DB_USER: env.DB_USER,
+        DB_PASSWORD: env.DB_PASSWORD,
     };
 };
