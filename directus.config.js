@@ -15,7 +15,7 @@ module.exports = function (env) {
         DB_CLIENT: env.DB_CLIENT,
         DB_HOST: env.DB_HOST,
         DB_PORT: env.DB_PORT,
-        DB_DATABASE: env.DB_NAME,
+        DB_DATABASE: env.DB_DATABASE,
         DB_USER: env.DB_USER,
         DB_PASSWORD: env.DB_PASSWORD,
     };
