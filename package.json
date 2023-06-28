@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Directus template for railway app",
     "scripts": {
-        "start": "npx directus start"
+        "init": "npx directus init",
+        "start": "npm run init && npx directus start"
     },
     "engines": {
         "node": ">=16.0.0"
