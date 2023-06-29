@@ -1,10 +1,10 @@
 {
-    "name": "directus-starter",
+    "name": "directus",
     "version": "1.0.0",
     "description": "Directus template for railway app",
     "scripts": {
-        "init": "npx directus init",
-        "start": "npm run init && npx directus start"
+        "prestart": "npm --filter api cli bootstrap",
+        "start": "npx directus start"
     },
     "engines": {
         "node": ">=16.0.0"
