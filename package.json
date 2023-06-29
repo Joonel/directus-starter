@@ -3,8 +3,7 @@
     "version": "1.0.0",
     "description": "Directus template for railway app",
     "scripts": {
-        "prestart": "npm --filter api cli bootstrap",
-        "start": "npx directus start"
+        "start": "npx directus bootstrap && npx directus start"
     },
     "engines": {
         "node": ">=16.0.0"
